@@ -1,0 +1,89 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  background:linear-gradient(70deg, #2F4F4F, white), transparent;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  display:flex;
+  flex-flow:row wrap;
+}
+
+body {
+  background-color: #696969;
+}
+.navbar{
+	margin-top:-8px;
+	margin-right:-10px;
+	margin-left: 0px;
+	width:100%;
+	color:#FFFAFA;
+	background:black;
+}
+.navbar-brand{
+	font-family:sans-serif;
+	font-style: italic;
+	font-weight:bold;
+	margin-top:2px;
+}
+.navbar-nav {
+	font-size:18px;
+	font-style:italic;
+	margin-left:40%;
+}
+#minhaimage{
+	border-radius:20px;
+	margin-left:14px;
+	margin-right:4px;
+}
+.navbar a:hover{
+	text-decoration:underline;
+	color:blue;
+}
+
+
+.logo {
+ 	margin-top:20px;
+	flex:30%;
+  height: 80px;
+  padding: 12px;
+  background-color:blue;
+margin-left: 0px;
+	width:100%;
+
+}
+
+header{
+  height: 140px;
+  padding: 10px;
+  background-color:#363636;
+  text-align: center;
+  margin-left: 0px;
+	width:100%;
+}
+aside {
+  padding: 2%;
+  height: 485px;
+  width: 30%;
+  background-color: black;
+  float: left;
+   margin-top:-140px;
+}
+#bodyarea{
+  height: 345px;
+  width: 70%;
+  padding: 2%;
+  background-color:#8B0000;
+  float: right;
+}
+footer {
+  height: 100px;
+  width:100%;
+  padding: 3px;
+  background-color: #2F4F4F;
+  clear: both;
+}
+
+span{
+  font-size:30px;
+  color:white;
+}

@@ -1,0 +1,196 @@
+.container{
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	padding: 20px;
+	background:linear-gradient(70deg, #2F4F4F, white), transparent;
+	box-shadow:0 15px 12px rgba(0,0,0,0.22)
+	border:12px solid black;
+	}
+body{
+	background: linear-gradient( #20B2AA, white);
+}
+nav{
+  background-color:black;
+
+}
+.navbar{
+	margin-top:-20px;
+	margin-right:-20px;
+	margin-left:-20px;
+	color:#FFFAFA;
+}
+.navbar-brand{
+	font-family:sans-serif;
+	font-style: italic;
+	font-weight:bold;
+	margin-top:2px;
+}
+.navbar-nav {
+	font-size:18px;
+	font-style:italic;
+	margin-left:40%;
+}
+#minhaimage{
+	border-radius:20px;
+	margin-left:15px;
+	margin-right:4px;
+}
+
+.navbar a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+#img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:30%;
+	margin-top:90px;
+}
+
+#sectio1{
+	margin-top:-46%;
+  flex:30%;
+  padding:100px;
+  margin-left:30%; 
+}
+
+
+#sectio1, p{
+	text-align:justify;
+}
+#wiki, #schools{
+	color: #00FFFF;
+	text-transform:uppercase;
+	font-family:sans-serif;
+	font-style:italic;
+}
+#wiki:hover, #schools:hover{
+	color:#000000;
+	text-decoration: underline;
+}
+
+
+
+
+
+.row{
+	width: 750px;
+	height:100%;
+	margin: 0 auto;
+	padding:15px;
+	overflow: hidden;
+	height: 550px;
+	list-style:none;
+	margin-top:-70px;
+	display:flex;
+	
+}
+
+
+span {
+	opacity: 10;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px black;
+	background-color: rgba(0,0,0, .5);
+	font-size: 10pt;
+	line-height: 390px;
+	padding: 5px;
+	margin-left: -1px;
+
+	
+}
+
+.row li:hover {
+	-webkit-transform:scale(1.1);
+	cursor:pointer;
+}
+
+.row li {
+	width: 210px;
+	height: 210px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.6);
+	background-color: #ffffff;
+	-webkit-transition: all .4s ease-in;
+	margin-left:-1px;
+	margin-top:0px;
+	flex-flow:space-evenly;
+
+}
+
+li#image1{
+	background: url('https://static.collectui.com/shots/2495233/sign-in-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: #ffffff;
+}
+
+li#image2{
+	background: url('https://static.collectui.com/shots/2487569/22-search-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: #ffffff;
+}
+li#image3{
+	background: url('https://static.collectui.com/shots/2555346/daily-ui-030-pricing-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: #ffffff;
+}
+li#image4{
+	background: url('https://static.collectui.com/shots/2666271/contact-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 220px 250px;
+	background-color: #ffffff;
+}
+li#image5{
+	background: url('https://static.collectui.com/shots/3598361/1-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 260px 250px;
+	background-color: #ffffff;
+}
+
+
+li#image6{
+	background: url('https://static.collectui.com/shots/2644680/nick-parker-daily-ui-45-large') no-repeat;
+	background-position: 50% 50%;
+	background-size: 250px 250px;
+	background-color: #ffffff;
+}
+
+
+
+
+
+footer {
+	float:left;
+	display:flex;
+	padding-left: 10%;
+	padding:25px;
+	margin:5px;
+	width: auto;
+	border:1px solid white;
+	margin-right:-20px;
+	margin-left:-20px;
+	color:white;
+	text-align: justify;
+	background:linear-gradient(to bottom, #667480, #4c5760, #333b41, #1d2225, #000407);
+}
+.rodape{
+	padding:3px;
+	border:1px solid white;
+	border-radius:10px;
+}
+
+h4{
+	background:black;
+	color:white;
+	text-align:center;
+}
+
